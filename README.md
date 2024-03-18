@@ -27,6 +27,6 @@ The series of five dices have the following rank order (from the best one to the
 ![Alt text](Dashboard.PNG)
 
 # Run Time Video
-[![Video](Dashboard.PNG)](https://www.youtube.com/watch?v=5PoTrsL-bhg)
+[![Video](Dashboard.PNG)](https://youtu.be/_uvSu_orYK8)
 
 
