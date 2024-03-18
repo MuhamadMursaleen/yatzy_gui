@@ -1,4 +1,7 @@
 # yatzy_gui Game
+## Copyright
+All rights reserved. This project is strictly prohibited for use by anyone other than the author. No part of this project may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+
 #Gmae Rules
 Game rules are described here such that they will be implemented in this project (or have been implemented in the template code). They can differ from the real yatzy game.
 
