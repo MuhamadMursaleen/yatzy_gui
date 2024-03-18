@@ -13,15 +13,15 @@ After all turns of all players have been used or after dropping out the game, th
 
 The series of five dices have the following rank order (from the best one to the worst one):
 
-##yatzy, i.e. all five dices have the same face
-##four of a kind, i.e. exactly four dices have the same face
-##full house, i.e. exactly three dices have the same face and also the rest two dices have the same face
-##straigth, i.e. either the faces 1, 2, 3, 4, and 5, or the faces 2, 3, 4, 5, and 6
-##three of a kind, i.e. exactly three dices have the same face
-##two pairs, i.e. exactly two dices have the same face and also exactly two other dices have the same face
-##pair, i.e. exactly two dices have the same face
-##nothing of above.
-##There is no rank order inside the above classes. For example, the pair of 1’s is as good as the pair of 6’s.
+## yatzy, i.e. all five dices have the same face
+## four of a kind, i.e. exactly four dices have the same face
+## full house, i.e. exactly three dices have the same face and also the rest two dices have the same face
+## straigth, i.e. either the faces 1, 2, 3, 4, and 5, or the faces 2, 3, 4, 5, and 6
+## three of a kind, i.e. exactly three dices have the same face
+## two pairs, i.e. exactly two dices have the same face and also exactly two other dices have the same face
+## pair, i.e. exactly two dices have the same face
+## nothing of above.
+## There is no rank order inside the above classes. For example, the pair of 1’s is as good as the pair of 6’s.
 
 # Dashboard
 ![Alt text](Dashboard.PNG)
