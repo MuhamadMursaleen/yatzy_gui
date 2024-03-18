@@ -1,0 +1,106 @@
+--------- Yatzy Gui -------
+
+---- Game Rules:
+
+
+ Yatzy game has five dices that are thrown by the players in desired order.
+ At start, each player has three turns to roll up dices, but it is not mandatory
+ to use them all. Moreover, it is not required to use the turns alternately, but
+ a player can, for example, take all their turns one after the other (without giving
+ turn to other players between one’s rolls).
+
+ A player can lock part of the dices such that only unlocked dices will be rolled in
+ the next roll. After all turns of all players have been used or after dropping out
+ the game, the program tells who was the winner or between which players the result
+ is tie.
+
+ The series of five dices have the following rank order (from the best one to the
+ worst one):
+
+ -yatzy, i.e. all five dices have the same face
+ -four of a kind, i.e. exactly four dices have the same face
+ -full house, i.e. exactly three dices have the same face and also the rest two
+    dices have the same face
+ -straigth, i.e. either the faces 1, 2, 3, 4, and 5, or the faces 2, 3, 4, 5, and 6
+ -three of a kind, i.e. exactly three dices have the same face
+ -two pairs, i.e. exactly two dices have the same face and also exactly two other
+    dices have the same face
+ -pair, i.e. exactly two dices have the same face
+ -nothing of above.
+
+    There is no rank order inside the above classes. For example, the pair of 1’s
+    is as good as the pair of 6’s.
+
+ * ------------ Program author -----------
+ *
+ * Name: Muhammad Mursaleen
+ * Student number: 152216548
+ * UserID: pbmumu
+ * E-Mail: muhammad.mursaleen@tuni.fi
+
+
+---- Functionalities that have been implemented
+
+-- Minimal requirements:
+
+1: To play the game, the game window and faces of the rolled dices are shown for
+    the user.
+2: It must be possible to change the number of player
+3: It must be possible to select a new roll or to give turn for the next player
+4: It must be possible to lock dices.
+5: The game status must be shown for the user (which player is in turn,
+    how many rolls they have left)
+6: It is possible to start the game again (reset). This must be possible after
+    the game is over, as well as in the middle of the game.
+7: The game tells the time used and the winner or the players, between which
+    the result was tie.
+
+-- Extra features:
+
+1: Dices have been implemented with the png figures given in the template code.
+2: Drawn dices not just appear, but their rolling has been animated.
+3: The user can set the number of players in the user interface.
+4: The background color of the user interface changes, when the game is over.
+    Resetting the game sets the original color.
+5: The game has a pause button, from which the user can pause the timer.
+    This is possible only when the game is on. Only Game can Reset and Close during
+    pause
+
+---- Instructions to play the game
+
+1: Game can be started and reset with same button, When it will be presed game will be
+    started immediately. but you have to select the number of players in spin box
+    before pressing of the Reset button. Because with start/reset button game will be
+    started immediately with number present in spinbox.
+2: With roll button roll action of the current player will be executed if it has any
+    turns left, if not then nothing will be happened a message will be printed about
+    player turns.
+3: With next turn button, turn will be shifted to next player.
+4: With pause/unpause button game can be paused and unpaused with single button.
+    during pause roll and next turn button will be disabled and timer will be stoped
+    , it is still possible to reset and closed the game during pause.
+5: For the very first turn of each player locking mechanisim will be disable and
+    previous locking will be unchecked. player can only lock their dices for second
+    and next turns.
+6: If previous animation is still running and next roll has been clicked then animation
+    will be canceled out and proper number of dice will be appeared and next roll will
+    be executed too. if no turn of curent player is left then animation will also not
+    be executed too.
+7: If previous animation is still running and reset button has been clicked then
+    animation will be canceled out and proper number of dice will be appeared and
+    results off the previous game will be displayed too and display clock will also
+    be stopped.
+8: if match is over then dispaly clock will be stoped and results will be displayed,
+    and roll, next, turn & pause button will be disabled & background color of the
+    game will also be changed.
+9: If someone wants to just run the game in cmd as original template to ttest the
+    logics, it still posibile, by doing " runTestInTerminalOnly = true"  in the
+    mainWindow.cpp file in the begening of the code around line number "15". By
+    default it is false to test the Gui properly.
+10: With close Button gui will be terminanted immediately.
+
+
+
+
+
+
